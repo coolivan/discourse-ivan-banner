@@ -105,10 +105,13 @@ banner_link_color:
   type: string
   default: "var(--tertiary)"
 
+banner_link_hover_color:
+  type: string
+  default: "var(--primary-high)"
+
 svg_icons:
-  default: "user-group"
-  type: "list"
-  list_type: "compact"
+  default: ""
+  type: "string"
 
 layout:
   default: "text-left"
