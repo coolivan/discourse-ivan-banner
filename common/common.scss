@@ -20,6 +20,7 @@
     background-repeat: #{$banner-background-repeat};
     background-position: center center;
     margin-bottom: 1em;
+    color: #{$banner-text-color};
   }
 
   .welcome-link-banner {
@@ -87,7 +88,7 @@
           }
 
           &:hover {
-            color: #{$banner-link-color};
+            color: #{$banner-link-hover-color};
             text-decoration: underline;
             .d-icon {
               color: #{$banner-link-color};
@@ -101,6 +102,9 @@
           margin: 0;
           min-width: 0;
           font-size: var(--font-up-1);
+          display:flex;
+          flex-direction:column;
+          justify-content:center;
         }
       }
 
